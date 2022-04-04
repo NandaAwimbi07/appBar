@@ -195,7 +195,7 @@ class Email extends StatelessWidget {
           return Card(
               child: ListTile(
             title: Text(mesage[index], style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-            subtitle: Text('There is a new message from ' + mesage[index]),
+            subtitle: Text(' New message from ' + mesage[index]),
             leading: Icon(Icons.message),
           ));
         },
